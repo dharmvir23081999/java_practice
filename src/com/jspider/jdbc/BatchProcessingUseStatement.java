@@ -15,7 +15,7 @@ public class BatchProcessingUseStatement {
         st.addBatch("insert into employee values(103,'ram',12,'delhi');");
         st.addBatch("insert into employee values(104,'ram',12,'delhi');");
         st.addBatch("insert into employee values(105,'ram',12,'delhi');");
-        //st.execute("insert into employee values(101,'ram',10,'patna');");
+        st.execute("insert into employee values(101,'ram',10,'patna');");
         st.executeBatch();
     }
 }
